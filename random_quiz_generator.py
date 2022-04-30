@@ -10,15 +10,10 @@ import re
 
 class Quest_gen:
     def __init__(self, subject, number_of_tests, number_of_questions):
-
         self.subject = subject
         self.number_of_tests = num_of_tests
         self.number_of_questions = num_of_quests
 
-        # self.format = format
-
-        # get number of questions, subject, and form
-        # if format == 'txt':
         # Generate quiz text files.
         for quizNum in range(num_of_tests):
             # Create the quiz and answer key files.
@@ -84,7 +79,6 @@ if __name__ == "__main__":
             continue
         else:
             break
-
 
     while True:
         try:
